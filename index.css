@@ -1,0 +1,38 @@
+body{
+  margin:0 auto;
+  max-width:700px;
+}
+h1{
+  color: blue;
+  display: inline;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  /* border-collapse: collapse; */
+  border: 1px solid gray;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* table td, */
+table th {
+  border: 1px solid blueviolet;
+  padding: 8px;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+td{
+  background-color:whitesmoke;
+  border: 1px solid gray;
+}
+button{
+  background-color: red;
+  align-items: auto;
+
+}
+#submit{
+  background-color:blue;
+}
