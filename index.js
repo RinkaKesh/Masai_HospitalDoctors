@@ -47,7 +47,7 @@ myForm.addEventListener("submit",function(e){
         if(Number(ele.Expt)<=1){
             td7.innerText="Trainee";
         }
-        if(Number(ele.Expt)>5){
+        else if(Number(ele.Expt)>5){
             td7.innerText="Senior";
         }
         else{
